@@ -4,6 +4,8 @@ Portafolio personal de **Miguel Ángel Fajardo Zapata**, desarrollador de softwa
 junior y estudiante de Análisis y Desarrollo de Software (ADSO) en el SENA,
 Colombia.
 
+**En vivo:** <https://portafolio-omega-gilt-26.vercel.app>
+
 Sitio de una sola página, responsive y con estética oscura premium: negro y azul
 profundo, violeta y azul eléctrico, tipografía display, partículas, retrato con
 detalles técnicos y microinteracciones. Todo el contenido real vive en un único
@@ -193,6 +195,9 @@ Se controla con `profile.status.enabled` y `profile.status.label`. Cambia
 
 ## Despliegue en Vercel
 
+- **Sitio en producción:** <https://portafolio-omega-gilt-26.vercel.app>
+- **Repositorio:** <https://github.com/miguelhacky/portafolio-miguel-fajardo>
+
 1. Sube el proyecto a un repositorio de GitHub.
 2. En Vercel, importa el repositorio.
 3. Configura:
@@ -203,9 +208,9 @@ Se controla con `profile.status.enabled` y `profile.status.label`. Cambia
 4. Añade las variables de entorno opcionales si las usas (no son obligatorias).
 5. Despliega. No se necesitan rewrites porque el sitio es una sola página.
 
-Después del despliegue, actualiza en `index.html` la URL absoluta de
-`og:image` y añade `og:url`/`canonical` con el dominio final. Ahora mismo
-`og:image` es relativo para no inventar un dominio.
+También puedes desplegar desde la terminal con `vercel --prod`. El dominio final
+ya está configurado en `index.html` (`canonical`, `og:url` y `og:image`); si
+cambias de dominio, actualiza esas tres URLs.
 
 ### Otros hostings
 
