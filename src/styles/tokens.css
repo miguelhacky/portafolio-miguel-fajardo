@@ -1,0 +1,64 @@
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+:root {
+  color-scheme: dark;
+
+  --bg: #05060e;
+  --bg-soft: #080b18;
+  --bg-elevated: #0b0f20;
+  --surface: rgba(13, 17, 34, 0.72);
+  --surface-strong: rgba(15, 20, 40, 0.92);
+  --surface-soft: rgba(255, 255, 255, 0.035);
+
+  --text: #f1f3ff;
+  --text-soft: #d5daf2;
+  --muted: #9aa5c9;
+  --muted-strong: #b8c0df;
+  --muted-dim: #6f7ba3;
+
+  --line: rgba(150, 164, 255, 0.14);
+  --line-strong: rgba(160, 174, 255, 0.26);
+  --line-faint: rgba(150, 164, 255, 0.08);
+
+  --violet: #8b5cf6;
+  --violet-bright: #a78bfa;
+  --violet-deep: #6d3ff2;
+  --blue: #3b82f6;
+  --blue-bright: #60a5fa;
+  --cyan: #22d3ee;
+  --mint: #34d399;
+  --amber: #fbbf24;
+  --rose: #fb7185;
+
+  --gradient-primary: linear-gradient(120deg, #7c5cff 0%, #5b8cff 52%, #2dd4bf 100%);
+  --gradient-text: linear-gradient(110deg, #f1f3ff 4%, #c6b7ff 42%, #7dd3fc 100%);
+  --gradient-border: linear-gradient(
+    130deg,
+    rgba(167, 139, 250, 0.7),
+    rgba(96, 165, 250, 0.28) 45%,
+    rgba(34, 211, 238, 0.6)
+  );
+
+  --font-display: 'Space Grotesk Variable', 'Space Grotesk', 'Segoe UI', sans-serif;
+  --font-body: 'Manrope Variable', 'Manrope', 'Segoe UI', sans-serif;
+  --font-mono: 'SFMono-Regular', 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
+
+  --container: 1240px;
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);
+  --section-space: clamp(5.5rem, 10vw, 9.5rem);
+  --header-offset: 112px;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 30px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --shadow-card: 0 28px 80px -40px rgba(0, 0, 0, 0.8);
+  --shadow-glow: 0 20px 70px -24px rgba(124, 92, 255, 0.55);
+}

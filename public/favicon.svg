@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#171132" />
+      <stop offset="0.55" stop-color="#0b0f20" />
+      <stop offset="1" stop-color="#07121f" />
+    </linearGradient>
+    <linearGradient id="stroke" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a78bfa" />
+      <stop offset="0.55" stop-color="#60a5fa" />
+      <stop offset="1" stop-color="#2dd4bf" />
+    </linearGradient>
+    <linearGradient id="text" x1="17" y1="24" x2="48" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#c4b5fd" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)" />
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="14.25" fill="none" stroke="url(#stroke)" stroke-width="1.5" />
+  <path d="M50 15v9h-9" fill="none" stroke="#a78bfa" stroke-width="1.6" stroke-linecap="round" opacity=".7" />
+  <path d="M14 49v-9h9" fill="none" stroke="#2dd4bf" stroke-width="1.6" stroke-linecap="round" opacity=".7" />
+  <text x="32" y="40" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="-1" fill="url(#text)">MF</text>
+</svg>
